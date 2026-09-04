@@ -70,7 +70,7 @@
       },
       "wefit": {
         "title": "WeFit",
-        "description": "Projetos de grande porte para Azul Airlines e Rede Américas, com destaque para Azul Cargo e Torre de Controle."
+        "description": "Projetos de grande porte para Azul Airlines e Rede Américas, com produtos públicos de logística e sistemas internos de operação."
       },
       "now": {
         "title": "Hoje",
@@ -119,7 +119,7 @@
         "description": "Atuei como desenvolvedor front-end em diversos projetos de grande porte, incluindo soluções B2B e B2C para clientes de destaque como Azul Airlines e Rede Américas (Amil e Dasa). Tornei-me referência técnica em documentação e boas práticas, especialmente sobre Firebase em aplicações React e Next.js, além de ser reconhecido pelo domínio em animações com Styled-Components, Keyframes e TypeScript. Atuei na organização e condução de múltiplos projetos simultâneos, com contato direto com clientes, code reviews e metodologias ágeis como SCRUM.",
         "achievements": [
           "Azul Cargo: plataforma com milhares de acessos simultâneos, alta performance e estabilidade",
-          "Azul Torre de Controle: aplicação inovadora concorrente ao Prêmio Inovação da Azul Airlines",
+          "Sistemas internos de logística e controle operacional com foco em estabilidade e UX",
           "Referência técnica interna em Firebase, React, Next.js e documentação de boas práticas",
           "Reconhecido pelo domínio em animações com Styled-Components, Keyframes e TypeScript",
           "Condução de múltiplos projetos simultâneos com entregas alinhadas aos objetivos de negócio"
@@ -163,25 +163,25 @@
       },
       "azul": {
         "subtitle": "Soluções digitais B2B e B2C",
-        "description": "Desenvolvimento front-end de soluções de grande porte para a Azul Airlines, incluindo Azul Cargo, Torre de Controle e ISa Logbook, com foco em performance, estabilidade e inovação.",
-        "longDescription": "Na Azul Airlines, atuei no front-end de soluções B2B e B2C de grande escala. No Azul Cargo, construí uma plataforma capaz de sustentar milhares de acessos simultâneos com alta performance e estabilidade. Na Torre de Controle, desenvolvi uma aplicação inovadora candidata ao Prêmio de Inovação da Azul. Também trabalhei no ISa Logbook, sistema interno para controle de registros e volumes dos voos.",
+        "description": "Desenvolvimento front-end de soluções de grande porte para a Azul Airlines, incluindo produtos públicos de logística e sistemas internos de operação, com foco em performance, estabilidade e boa experiência de uso.",
+        "longDescription": "Na Azul Airlines, atuei no front-end de soluções B2B e B2C de grande escala. No Azul Cargo, trabalhei em uma plataforma pública de logística pensada para alta concorrência, performance e estabilidade. Também participei de sistemas internos de logística e controle operacional, sempre com cuidado de interface, clareza de fluxo e robustez no dia a dia da operação — sem expor detalhes de processos confidenciais.",
         "responsibilities": [
           "Desenvolvimento front-end de soluções B2B e B2C de grande porte para a Azul Airlines",
           "Construção da plataforma Azul Cargo com foco em performance e estabilidade sob alta concorrência",
-          "Desenvolvimento da Torre de Controle, aplicação inovadora da companhia",
-          "Evolução do ISa Logbook para controle de registros e volumes dos voos",
+          "Evolução de sistemas internos de logística e controle operacional",
+          "Interface e experiência de uso em produtos de escala enterprise",
           "Organização de projetos, contato com clientes, code reviews e SCRUM"
         ],
         "results": [
           "Azul Cargo sustentando milhares de acessos simultâneos com alta performance",
-          "Torre de Controle candidata ao Prêmio de Inovação da Azul Airlines",
-          "ISa Logbook apoiando o controle operacional de registros e volumes de voos"
+          "Sistemas internos de operação com mais clareza e estabilidade no uso diário",
+          "Entregas front-end alinhadas a performance, UX e escala"
         ]
       },
       "rede": {
         "subtitle": "Sites e sistemas da Rede de Saúde",
-        "description": "Criei os sites institucionais de hospitais da Rede Américas (Madre Theodora, Pró-Cardíaco, Samaritano, Maternidade Brasília e Santa Joana Recife), além de outros portais e da manutenção de sistemas internos.",
-        "longDescription": "Na Rede Américas, desenvolvi sites institucionais para unidades hospitalares de referência, incluindo Hospital Madre Theodora, Hospital Pró-Cardíaco, Hospital Samaritano, Maternidade Brasília e Hospital Santa Joana Recife. Também criei diversos outros portais da rede e atuei na manutenção e evolução de sistemas internos usados no dia a dia operacional das unidades.",
+        "description": "Criei os sites institucionais de hospitais da Rede Américas (Madre Theodora, Pró-Cardíaco, Samaritano, Maternidade Brasília e Santa Joana Recife), além de outros portais públicos e apoio a sistemas internos de operação.",
+        "longDescription": "Na Rede Américas, desenvolvi sites institucionais para unidades hospitalares de referência, incluindo Hospital Madre Theodora, Hospital Pró-Cardíaco, Hospital Samaritano, Maternidade Brasília e Hospital Santa Joana Recife. Também criei outros portais públicos da rede e apoiei a manutenção e evolução de sistemas internos usados no dia a dia das unidades, sem detalhar fluxos ou dados operacionais.",
         "responsibilities": [
           "Desenvolvimento front-end de soluções B2B e B2C de grande porte para a Rede Américas (Amil e Dasa)",
           "Organização e condução de múltiplos projetos simultâneos com contato direto com clientes",
