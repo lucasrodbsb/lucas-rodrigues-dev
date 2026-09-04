@@ -11,7 +11,7 @@ import { WhatsAppFloat } from "@/components/layout/WhatsAppFloat";
 import { SmoothScrollProvider } from "@/components/providers/SmoothScrollProvider";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { routing, type Locale } from "@/i18n/routing";
-import { SITE, SITE_LOCALES } from "@/lib/constants/site";
+import { SITE, SITE_LOCALES, getMetadataBase, getSiteUrl } from "@/lib/constants/site";
 import "../globals.css";
 
 const inter = Inter({
@@ -56,20 +56,22 @@ export async function generateMetadata({
     : SITE.localeDefault) as Locale;
   const tMeta = await getTranslations({ locale: safeLocale, namespace: "metadata" });
   const localeMeta = SITE_LOCALES[safeLocale];
-  const canonical = `${SITE.url}${localeMeta.path}`;
+  const siteUrl = getSiteUrl();
+  const canonical = `${siteUrl}${localeMeta.path}`;
   const title = tMeta("title");
   const description = tMeta("description");
   const ogImageAlt = tMeta("ogImageAlt");
+  const ogImageUrl = `${siteUrl}${SITE.ogImagePath}`;
 
   const languages = {
     ...Object.fromEntries(
-      routing.locales.map((item) => [item, `${SITE.url}/${item}`]),
+      routing.locales.map((item) => [item, `${siteUrl}/${item}`]),
     ),
-    "x-default": `${SITE.url}/${SITE.localeDefault}`,
+    "x-default": `${siteUrl}/${SITE.localeDefault}`,
   };
 
   return {
-    metadataBase: new URL(SITE.url),
+    metadataBase: getMetadataBase(),
     title: {
       default: title,
       template: `%s | ${SITE.name}`,
@@ -77,7 +79,7 @@ export async function generateMetadata({
     description,
     applicationName: SITE.name,
     keywords: tMeta("keywords").split(", "),
-    authors: [{ name: SITE.name, url: SITE.url }],
+    authors: [{ name: SITE.name, url: siteUrl }],
     creator: SITE.name,
     publisher: SITE.name,
     category: "technology",
@@ -92,12 +94,12 @@ export async function generateMetadata({
       canonical,
       languages,
       types: {
-        "application/xml": `${SITE.url}/sitemap.xml`,
-        "text/plain": `${SITE.url}/llms.txt`,
+        "application/xml": `${siteUrl}/sitemap.xml`,
+        "text/plain": `${siteUrl}/llms.txt`,
       },
     },
     openGraph: {
-      type: "profile",
+      type: "website",
       locale: localeMeta.openGraph,
       alternateLocale: routing.locales
         .filter((item) => item !== safeLocale)
@@ -106,12 +108,10 @@ export async function generateMetadata({
       title,
       description,
       siteName: SITE.name,
-      firstName: "Lucas",
-      lastName: "Rodrigues",
-      username: "lucasrodbsb",
       images: [
         {
-          url: "/opengraph-image",
+          url: ogImageUrl,
+          secureUrl: ogImageUrl,
           width: 1200,
           height: 630,
           alt: ogImageAlt,
@@ -125,7 +125,7 @@ export async function generateMetadata({
       description,
       images: [
         {
-          url: "/twitter-image",
+          url: ogImageUrl,
           width: 1200,
           height: 630,
           alt: ogImageAlt,
@@ -145,7 +145,7 @@ export async function generateMetadata({
       },
     },
     other: {
-      "llm:txt": `${SITE.url}/llms.txt`,
+      "llm:txt": `${siteUrl}/llms.txt`,
     },
   };
 }
@@ -163,19 +163,20 @@ export default async function LocaleLayout({ children, params }: Props) {
   const tHero = await getTranslations({ locale: safeLocale, namespace: "hero" });
   const tMeta = await getTranslations({ locale: safeLocale, namespace: "metadata" });
   const localeMeta = SITE_LOCALES[safeLocale];
-  const pageUrl = `${SITE.url}${localeMeta.path}`;
+  const siteUrl = getSiteUrl();
+  const pageUrl = `${siteUrl}${localeMeta.path}`;
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": `${SITE.url}/#website`,
-        url: SITE.url,
+        "@id": `${siteUrl}/#website`,
+        url: siteUrl,
         name: SITE.name,
         description: tMeta("description"),
         inLanguage: [SITE_LOCALES.pt.html, SITE_LOCALES.en.html],
-        publisher: { "@id": `${SITE.url}/#person` },
+        publisher: { "@id": `${siteUrl}/#person` },
       },
       {
         "@type": "ProfilePage",
@@ -184,16 +185,16 @@ export default async function LocaleLayout({ children, params }: Props) {
         name: tMeta("title"),
         description: tMeta("description"),
         inLanguage: localeMeta.html,
-        isPartOf: { "@id": `${SITE.url}/#website` },
-        about: { "@id": `${SITE.url}/#person` },
-        mainEntity: { "@id": `${SITE.url}/#person` },
+        isPartOf: { "@id": `${siteUrl}/#website` },
+        about: { "@id": `${siteUrl}/#person` },
+        mainEntity: { "@id": `${siteUrl}/#person` },
       },
       {
         "@type": "Person",
-        "@id": `${SITE.url}/#person`,
+        "@id": `${siteUrl}/#person`,
         name: SITE.name,
         url: pageUrl,
-        image: `${SITE.url}/lucas-rodrigues.webp`,
+        image: `${siteUrl}/lucas-rodrigues.webp`,
         jobTitle: tHero("role"),
         email: SITE.email,
         description: tMeta("description"),

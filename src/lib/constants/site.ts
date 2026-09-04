@@ -7,6 +7,7 @@ export const SITE = {
   github: "https://github.com/lucasrodbsb",
   whatsapp: "https://wa.me/5561982789687",
   localeDefault: "pt",
+  ogImagePath: "/og.png",
   themeColor: {
     light: "#f8f9fc",
     dark: "#000000",
@@ -19,6 +20,28 @@ export const SITE = {
     accentCyan: "#22d3ee",
   },
 } as const;
+
+/** Canonical site origin for the current deploy (custom domain when set, else Vercel). */
+export function getSiteUrl() {
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (explicit) return explicit.replace(/\/$/, "");
+
+  const productionHost = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+  if (process.env.VERCEL_ENV === "production" && productionHost) {
+    return `https://${productionHost.replace(/\/$/, "")}`;
+  }
+
+  const previewHost = process.env.VERCEL_URL?.trim();
+  if (previewHost) {
+    return `https://${previewHost.replace(/\/$/, "")}`;
+  }
+
+  return SITE.url;
+}
+
+export function getMetadataBase() {
+  return new URL(`${getSiteUrl()}/`);
+}
 
 export const SOCIAL_LINKS = [
   {
