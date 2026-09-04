@@ -1,0 +1,23 @@
+# Lucas Rodrigues
+
+> Software engineer specializing in React, Next.js, React Native, and TypeScript. Based in Brasília, Brazil. This portfolio helps recruiters and clients evaluate craft, shipped work, and fit for frontend/mobile roles.
+
+Lucas builds polished web and mobile interfaces with strong UX, performance, and real product delivery. Preferred contact channels are WhatsApp and LinkedIn.
+
+## Pages
+
+- [Portfolio (PT)](https://lucasrodrigues.dev/pt): Portuguese homepage with about, experience, projects, skills, recommendations, and contact
+- [Portfolio (EN)](https://lucasrodrigues.dev/en): English homepage with the same sections
+- [Sitemap](https://lucasrodrigues.dev/sitemap.xml): Canonical indexable URLs for search engines
+
+## Contact
+
+- [LinkedIn](https://linkedin.com/in/lucas-rodrigues-515358223): Professional profile and recommendations
+- [GitHub](https://github.com/lucasrodbsb): Code and public repositories
+- [WhatsApp](https://wa.me/5561982789687): Preferred direct contact channel
+- [Email](mailto:lucas.rodd61@gmail.com): Direct email
+
+## Optional
+
+- [robots.txt](https://lucasrodrigues.dev/robots.txt): Crawler rules and sitemap pointer
+- [Web app manifest](https://lucasrodrigues.dev/manifest.webmanifest): Install metadata
