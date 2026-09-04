@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "title": "Lucas Rodrigues | Software Engineer",
+    "description": "Software Engineer in Brasília specializing in React, Next.js, React Native, and TypeScript. Web and mobile interfaces with performance, solid UX, and real delivery.",
+    "keywords": "Lucas Rodrigues, Software Engineer, Frontend Developer, React, Next.js, TypeScript, React Native, Expo, Brasília, Portfolio",
+    "ogImageAlt": "Lucas Rodrigues — Software Engineer. React, Next.js, React Native, and TypeScript."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "recommendations": "Recommendations",
+    "contact": "Contact",
+    "letsTalk": "Let's talk",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation",
+    "switchLanguage": "Switch language"
+  },
+  "hero": {
+    "ariaLabel": "Hero",
+    "greeting": "Hello,",
+    "nameLine1": "I'M LUCAS",
+    "nameLine2": "RODRIGUES.",
+    "role": "Software Engineer",
+    "tagline": "I build web and mobile interfaces with a focus on performance, solid UX, and real delivery.",
+    "viewProjects": "View Projects",
+    "getInTouch": "Get in Touch",
+    "scrollToAbout": "Scroll to about section",
+    "portraitAlt": "Portrait of Lucas Rodrigues",
+    "separator": "✦",
+    "circularOuter": "Software Engineer · React · Next.js · React Native · TypeScript · UI/UX · Performance",
+    "circularInner": "Brasília · Brazil · Frontend · Mobile · Design Systems · Accessibility · Delivery"
+  },
+  "about": {
+    "ariaLabel": "About",
+    "label": "About",
+    "title": "About me",
+    "description": "JavaScript/TypeScript developer focused on React, Next.js, and React Native, building performant, accessible, and well-crafted interfaces.",
+    "headline": "Software Engineer · Frontend & Mobile",
+    "bio": "I'm a JavaScript/TypeScript developer working mainly with React, Next.js, and React Native. I like building clear, fast, well-crafted interfaces without losing sight of APIs, authentication, operations, and real-world use. I've worked on AI-powered apps, high-traffic platforms, and evolving products of my own.",
+    "stories": {
+      "craft": {
+        "title": "Product work with strong interface craft",
+        "description": "In Apollo App and other products, I worked where UX, business rules, and implementation had to move together. My best work usually happens at the edge between interface, flow, and delivery."
+      },
+      "taste": {
+        "title": "Scale without losing finish",
+        "description": "At WeFit and on projects for Azul Airlines and Rede Americas, I worked on products large enough to demand stability, clarity, and delivery speed without giving up visual care."
+      },
+      "evolving": {
+        "title": "Craft with responsibility",
+        "description": "Beyond implementation, I take part in design systems, code reviews, and frontend implementation decisions so the interface stays good after the first version ships."
+      }
+    }
+  },
+  "timeline": {
+    "ariaLabel": "Timeline",
+    "title": "Timeline",
+    "description": "A few milestones from my career.",
+    "items": {
+      "superAdega": {
+        "title": "Super Adega",
+        "description": "Development of a TOTVS-awarded corporate intranet, adopted across all company departments."
+      },
+      "moonxi": {
+        "title": "Moonxi",
+        "description": "Full stack web and mobile development on Join (trust-based communities) and Apollo App (AI agent workspace)."
+      },
+      "wefit": {
+        "title": "WeFit",
+        "description": "Large-scale projects for Azul Airlines and Rede Américas, including Azul Cargo and Control Tower."
+      },
+      "now": {
+        "title": "Today",
+        "description": "Working on my own products, like Biotree, and taking on new web and mobile challenges."
+      }
+    }
+  },
+  "clients": {
+    "ariaLabel": "Clients and projects",
+    "label": "Clients",
+    "title": "Clients and brands",
+    "description": "Companies and products I've worked with."
+  },
+  "experience": {
+    "ariaLabel": "Experience",
+    "label": "Experience",
+    "title": "Work experience",
+    "description": "Teams and companies where I've worked as a developer.",
+    "items": {
+      "superAdega": {
+        "role": "Front-End Developer",
+        "location": "Brasília, DF · On-site",
+        "description": "I actively participated in the development of an internal corporate intranet project focused on centralizing and optimizing the company's internal processes. I worked alongside the IT team, directors, and collaborators from various departments to map real business needs and transform them into efficient technological solutions. The system was adopted across all company areas, integrating administrative and operational workflows into a single platform.",
+        "achievements": [
+          "100% improvement in company workflow, with direct gains in productivity and internal communication",
+          "Project recognized and awarded by TOTVS for innovation and outstanding results",
+          "Intranet adopted across all company departments in a single integrated platform",
+          "Business needs mapping in collaboration with IT, directors, and cross-functional teams"
+        ]
+      },
+      "moonxi": {
+        "role": "Full Stack Web & Mobile Developer",
+        "location": "Remote · Brazil",
+        "description": "I worked on full stack web and mobile product development at Moonxi. On Join, a community app built on trust and 2nd-degree connections, I contributed to the mobile experience for discovering events and plans within the user's trusted circle. On Apollo App, the mobile client for the Apollo Space AI workspace, I built with Expo and React Native a daily operational hub: Home briefing, AI agent chat (streaming), team messaging, kanban boards with tasks and comments, Google Calendar integration, and profile with notifications, all aligned with the web product.",
+        "achievements": [
+          "Join: mobile community app where members discover plans and events from their trusted circle",
+          "Apollo App: mobile operational hub with AI chat, kanban, calendar, and briefing (Digital Twin, tasks, finance)",
+          "Amazon Cognito authentication and FastAPI REST API integration on the Apollo mobile client",
+          "Multi-view calendar module with Google Calendar to create, edit, and send email invites",
+          "pt-BR/en i18n and light/dark themes, with v1.0.0 beta shipped on Expo SDK 54"
+        ]
+      },
+      "wefit": {
+        "role": "Front-End Developer",
+        "location": "São Paulo, SP · Hybrid",
+        "description": "I worked as a front-end developer on several large-scale projects, including B2B and B2C solutions for prominent clients such as Azul Airlines and Rede Américas (Amil and Dasa). I became a technical reference in documentation and best practices, especially regarding Firebase in React and Next.js applications, and was recognized for my mastery of animations with Styled-Components, Keyframes, and TypeScript. I also organized and led multiple simultaneous projects, with direct client contact, code reviews, and agile methodologies such as SCRUM.",
+        "achievements": [
+          "Azul Cargo: platform supporting thousands of simultaneous accesses with high performance and stability",
+          "Azul Control Tower: innovative application competing for the Azul Airlines Innovation Award",
+          "Internal technical reference for Firebase, React, Next.js, and documentation best practices",
+          "Recognized for mastery of animations with Styled-Components, Keyframes, and TypeScript",
+          "Led multiple simultaneous projects with deliveries aligned to business objectives"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "ariaLabel": "Projects",
+    "label": "Projects",
+    "title": "Featured projects",
+    "description": "A selection of products, apps, and platforms I worked on with a focus on frontend, mobile, and user experience.",
+    "viewDetails": "View {title} project details",
+    "closeModal": "Close modal",
+    "technologies": "Technologies",
+    "responsibilities": "Responsibilities",
+    "results": "Results",
+    "github": "GitHub",
+    "liveDemo": "Live Demo",
+    "websites": "Websites built",
+    "appScreens": "App",
+    "moreNote": "... and much more!",
+    "previous": "Previous projects",
+    "next": "Next projects",
+    "items": {
+      "biotree": {
+        "subtitle": "Links for businesses",
+        "description": "A link platform for businesses where your bio link becomes a branded showcase, ready for Instagram, WhatsApp, and whatever matters most.",
+        "longDescription": "Biotree is the platform I'm building for businesses to turn a bio link into a complete digital presence. In a single link, the brand gets its own showcase, aligned with its visual identity and ready for Instagram, WhatsApp, and the channels that matter most.",
+        "responsibilities": [
+          "Product design and full-stack development of the Biotree platform",
+          "Building the branded link showcase experience",
+          "Architecting a one-link digital presence for businesses",
+          "Ongoing product evolution focused on usability and conversion"
+        ],
+        "results": [
+          "Live platform at biotree.com.br",
+          "Bio link as a branded showcase",
+          "Product in active development for businesses"
+        ]
+      },
+      "azul": {
+        "subtitle": "B2B & B2C digital solutions",
+        "description": "Front-end development of large-scale solutions for Azul Airlines, including Azul Cargo, Control Tower, and ISa Logbook, focused on performance, stability, and innovation.",
+        "longDescription": "At Azul Airlines, I worked on front-end for large-scale B2B and B2C solutions. On Azul Cargo, I built a platform able to sustain thousands of concurrent users with high performance and stability. On Control Tower, I developed an innovative application nominated for the Azul Innovation Award. I also worked on ISa Logbook, an internal system for flight records and volume control.",
+        "responsibilities": [
+          "Front-end development of large-scale B2B and B2C solutions for Azul Airlines",
+          "Built the Azul Cargo platform focused on performance and stability under high concurrency",
+          "Developed Control Tower, an innovative company application",
+          "Evolved ISa Logbook for flight records and volume control",
+          "Project organization, client contact, code reviews, and SCRUM"
+        ],
+        "results": [
+          "Azul Cargo sustaining thousands of concurrent accesses with high performance",
+          "Control Tower nominated for the Azul Airlines Innovation Award",
+          "ISa Logbook supporting operational control of flight records and volumes"
+        ]
+      },
+      "rede": {
+        "subtitle": "Healthcare network sites & systems",
+        "description": "I built institutional websites for Rede Américas hospitals (Madre Theodora, Pró-Cardíaco, Samaritano, Maternidade Brasília, and Santa Joana Recife), plus other portals and ongoing maintenance of internal systems.",
+        "longDescription": "At Rede Américas, I developed institutional websites for leading hospital units, including Hospital Madre Theodora, Hospital Pró-Cardíaco, Hospital Samaritano, Maternidade Brasília, and Hospital Santa Joana Recife. I also created several other network portals and worked on the maintenance and evolution of internal systems used in the day-to-day operations of the units.",
+        "responsibilities": [
+          "Front-end development of large-scale B2B and B2C solutions for Rede Américas (Amil and Dasa)",
+          "Organization and leadership of multiple simultaneous projects with direct client contact",
+          "Code reviews and agile methodologies (SCRUM)",
+          "Documentation and best practices for React, Next.js, and Firebase"
+        ],
+        "results": [
+          "Digital sites and systems delivered for Rede Américas units",
+          "Technical reference for documentation, Firebase, React, and Next.js",
+          "High-quality deliveries aligned with business objectives"
+        ]
+      },
+      "apollo": {
+        "subtitle": "AI agent workspace",
+        "description": "Mobile client for Apollo Space AI: a daily operational hub with AI agent chat, kanban, calendar, and briefing, aligned with the web product.",
+        "longDescription": "On Apollo App, the mobile client for the Apollo Space AI workspace (Moonxi), I built with Expo and React Native a daily operational hub: Home briefing, streaming AI agent chat, team messaging, kanban boards with tasks and comments, Google Calendar integration, and profile with notifications. Amazon Cognito authentication and FastAPI REST API, with pt-BR/en i18n and light/dark themes. v1.0.0 beta shipped on Expo SDK 54.",
+        "responsibilities": [
+          "Built the Apollo mobile client with Expo, React Native, and TypeScript",
+          "Streaming AI agent chat, team messaging, and kanban boards",
+          "Google Calendar integration (create, edit, invites) and Home briefing",
+          "Amazon Cognito authentication and FastAPI REST API consumption",
+          "pt-BR/en i18n, light/dark themes, and v1.0.0 beta delivery"
+        ],
+        "results": [
+          "Mobile operational hub aligned with the Apollo Space AI web product",
+          "AI chat, kanban, calendar, and briefing (Digital Twin, tasks, finance)",
+          "v1.0.0 beta published on Expo SDK 54"
+        ]
+      },
+      "rdm": {
+        "subtitle": "Assembly, locks, and repairs in Brasília",
+        "description": "Local-services landing page focused on fast response, visual proof of work, and direct WhatsApp quoting.",
+        "longDescription": "For RDM Serviços, I worked on a local-conversion landing page: clear service offer, visual proof of work, Brasília coverage, and a low-friction quoting flow. The communication reinforces speed, trust, and direct contact with Robson himself instead of generic service language.",
+        "responsibilities": [
+          "Structured the landing page around fast quote requests",
+          "Organized services, coverage area, and recent work into a clear offer",
+          "Built the contact flow around WhatsApp",
+          "Directed concise copy for a local service business"
+        ],
+        "results": [
+          "Live website with a direct quote CTA",
+          "Clear service offer for visitors in Brasília and nearby areas",
+          "Real work samples reinforcing trust before contact"
+        ]
+      },
+      "mindline": {
+        "subtitle": "Psychology and mental health clinic",
+        "description": "Institutional landing page with a welcoming tone, trust-first structure, and clear paths to booking and contact.",
+        "longDescription": "For Mindline, the work revolves around warmth, clarity, and reassurance on the first visit. The landing page organizes benefits, team, space, warning signs, FAQ, and contact in a way that is more sensitive to the mental-health context while keeping booking as the main destination.",
+        "responsibilities": [
+          "Structured an institutional landing page for the clinic",
+          "Organized content to build trust from the first screen",
+          "Directed warmer, less clinical copy",
+          "Created clearer paths to booking and contact"
+        ],
+        "results": [
+          "Live site focused on credibility and care",
+          "Team, space, and benefits explained with clarity",
+          "Contact and booking placed at the center of the journey"
+        ]
+      },
+      "ektos": {
+        "subtitle": "Solidarity teaching project",
+        "description": "A solidarity project offering free programming education for anyone interested in learning to code.",
+        "longDescription": "Éktos was a solidarity project created to teach programming completely free of charge to anyone interested. The goal was to democratize access to knowledge and open doors for people wanting to start in tech, at no cost and with accessible content.",
+        "responsibilities": [
+          "Planned and structured programming teaching content",
+          "Taught classes and supported participants' learning journeys",
+          "Created accessible learning materials for beginners",
+          "Organized the project with a focus on inclusion and free access"
+        ],
+        "results": [
+          "100% free programming education for interested learners",
+          "Democratized access to technology knowledge",
+          "Built a foundation for people entering the field"
+        ]
+      }
+    }
+  },
+  "skills": {
+    "ariaLabel": "Skills",
+    "label": "Stack",
+    "title": "Technical expertise",
+    "description": "Frontend, mobile, and backend with real depth: React, Next.js, Expo, and the stack I use to ship products.",
+    "orbitLabel": "Stack",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "tools": "Tools"
+    },
+    "languages": {
+      "portuguese": "Portuguese",
+      "english": "English",
+      "french": "French",
+      "native": "Native"
+    }
+  },
+  "recommendations": {
+    "ariaLabel": "Recommendations",
+    "label": "Recommendations",
+    "title": "What teammates say",
+    "description": "Recommendations from people I've worked with.",
+    "viewLinkedin": "View {name}'s LinkedIn profile",
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "previous": "Previous recommendation",
+    "next": "Next recommendation",
+    "goTo": "View recommendation from {name}",
+    "items": {
+      "eduardo": {
+        "name": "Eduardo Rodrigues",
+        "role": "Senior Product Designer | Design Lead",
+        "quote": "Working with Lucas was a very positive experience that I'll always keep as a reference. As a front-end developer, he consistently showed technical mastery, attention to detail, and commitment to delivery quality, staying true to the proposed design. As a Product Designer, we had a collaborative partnership where it was easy to discuss solutions, align expectations, and make sure the user experience was considered from start to finish. Communication with Lucas is clear and light, which helped keep an efficient workflow. On top of that, his good humor and professional posture made day-to-day work more enjoyable. Without a doubt, a valuable professional on any team."
+      },
+      "mario": {
+        "name": "Mario Lima",
+        "role": "Software Engineer | Product Engineer | Fullstack",
+        "quote": "I've had the pleasure of working with Lucas since he joined our team in May of last year (2024), and it's been amazing to watch his growth. From day one, he's been proactive, taking on new tasks with real enthusiasm and always looking for ways to help the team. He's quick to learn new technologies and isn't afraid to roll up his sleeves to find solutions that improve the project. His positive attitude and willingness to go the extra mile have made a real difference in our team's success. I'm confident that wherever he goes next, he'll bring the same passion and commitment he's shown here."
+      },
+      "carlos": {
+        "name": "Carlos Dória",
+        "role": "Front-end Developer | React | React Native",
+        "quote": "I worked with Lucas for 6 months as a Front-end developer and could see his proactivity and organization. He was always available to take on new requests and help the work move forward. In dailies and reviews, he stood out for how clearly he handled requests and for the care he took documenting everything in progress. He's a responsible, collaborative professional who would add a lot to any team."
+      }
+    }
+  },
+  "contact": {
+    "ariaLabel": "Contact",
+    "label": "Contact",
+    "titleLine1": "Let's talk",
+    "titleLine2": "about the",
+    "titleHighlight": "next project",
+    "description": "Got an idea, an opening, or just want to chat? Reach out and I'll get back to you as soon as I can.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "messagePlaceholder": "Tell me a bit about what you need...",
+    "send": "Open WhatsApp",
+    "sending": "Opening WhatsApp...",
+    "sent": "Chat opened in WhatsApp.",
+    "helper": "I'll prefill a WhatsApp message for you to review and send.",
+    "whatsappMessage": "Hi! My name is {name}.\nEmail: {email}\n\n{message}"
+  },
+  "footer": {
+    "crafted": "Made by Lucas Rodrigues.",
+    "backToTop": "Back to top"
+  },
+  "site": {
+    "location": "Distrito Federal, Brazil"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light mode",
+    "dark": "Dark mode"
+  }
+}
