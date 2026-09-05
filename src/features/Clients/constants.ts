@@ -22,6 +22,13 @@ export const CLIENT_LOGOS: ClientLogo[] = [
     height: 44,
   },
   {
+    id: "wefit",
+    name: "WeFit",
+    src: "/logos/logo-wefit.webp",
+    width: 140,
+    height: 36,
+  },
+  {
     id: "rede-americas",
     name: "Rede Américas",
     src: "/logos/logo-rede-americas.svg",
