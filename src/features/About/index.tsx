@@ -26,7 +26,7 @@ export function About() {
         <SectionTitle
           label={t("about.label")}
           title={t("about.title")}
-          className={aboutStyles.heading}
+          className={`${aboutStyles.heading} text-center md:text-left`}
           labelClassName="mb-2"
           titleClassName={aboutStyles.headingTitle}
         />
@@ -46,26 +46,31 @@ export function About() {
                   src="/lucas-rodrigues.webp"
                   alt={SITE.name}
                   fill
-                  sizes="(max-width: 640px) 144px, (max-width: 768px) 208px, (max-width: 1024px) 256px, 288px"
+                  sizes="(max-width: 768px) 192px, (max-width: 1024px) 144px, 288px"
                   className="object-cover object-[center_18%]"
                 />
               </div>
             </div>
 
-            <div className={aboutStyles.copy}>
-              <h3 className={aboutStyles.profileName}>
-                {SITE.name}
-                <span className={aboutStyles.profileNameMark}>.</span>
-              </h3>
-              <p className={aboutStyles.profileHeadline}>{t("about.headline")}</p>
-              <p className={aboutStyles.profileMeta}>
-                <MapPin
-                  className={aboutStyles.locationIcon}
-                  aria-hidden
-                  strokeWidth={1.75}
-                />
-                {t("site.location")}
-              </p>
+            <div className={aboutStyles.copyStack}>
+              <div className={aboutStyles.intro}>
+                <h3 className={aboutStyles.profileName}>
+                  {SITE.name}
+                  <span className={aboutStyles.profileNameMark}>.</span>
+                </h3>
+                <p className={aboutStyles.profileHeadline}>
+                  {t("about.headline")}
+                </p>
+                <p className={aboutStyles.profileMeta}>
+                  <MapPin
+                    className={aboutStyles.locationIcon}
+                    aria-hidden
+                    strokeWidth={1.75}
+                  />
+                  {t("site.location")}
+                </p>
+              </div>
+
               <p className={aboutStyles.profileBio}>{t("about.bio")}</p>
             </div>
           </motion.div>
